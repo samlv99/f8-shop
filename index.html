@@ -48,7 +48,7 @@
                     </ul>
     
                     <ul class="header__navbar-list">
-                        <div class="header__navbar-item header__navbar-item--notify">
+                        <div class="header__navbar-item header__navbar-item--has-notify">
                             <a href="" class="header__navbar-item-link">
                                 <i class="header__navbar-icon far fa-bell"></i>
                                 Thông báo
@@ -62,8 +62,8 @@
                                         <a href="" class="header__notify-link">
                                             <img src="https://cf.shopee.vn/file/efcada76efc0cddb32b5e50bc110264c" alt="" class="header__notify-img">
                                             <div class="header__notify-info">
-                                                <sapn class="header__notify-name">Mỹ phẩm Ohui chính hãng</sapn>
-                                                <span class="header__notify-description">Mô tả mỹ phẩm Ohui</span>
+                                                <sapn class="header__notify-name">Xác thực chính xác nguồn gốc sản phẩm Ohui</sapn>
+                                                <span class="header__notify-description">HiddenTag là giải pháp xác thực hàng chính hãng bằng công nghệ tiên tiến nhất hiện nay</span>
                                             </div>
                                         </a>
                                     </li>
@@ -115,6 +115,58 @@
         <footer class="footer">
 
         </footer>
+    </div>
+
+    <!-- Modal layout -->
+    <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body">
+            <div class="modal__inner">
+                <!-- Auth -->
+                <div class="auth__form">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+                </div>
+                
+                <div class="auth-form__form">
+                    <div class="auth-form-group">
+                        <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                    </div>
+                    <div class="auth-form-group">
+                        <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn của bạn">
+                    </div>
+                    <div class="auth-form-group">
+                        <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn">
+                    </div>
+                </div>
+
+                <div class="auth-form__aside">
+                    <p class="auth-form__policy-text">Bằng việc đăng kí, bạn đã đồng ý với Shopee về
+                        <a href="" class="auth-form__policy-link">điều khoản dịch vụ</a> &
+                        <a href="" class="auth-form__policy-link">chính sách bảo mật</a>
+                    </p>
+                </div>
+
+                <div class="auth-form__controls">
+                    <button class="btn">TRỞ LẠI</button>
+                    <button class="btn btn--primery">ĐĂNG KÝ</button>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="btn btn--with-item">
+                        <i class="fab fa-facebook-square"></i>
+                        Kết nối với Facebook
+                    </a>
+                    <a href="" class="btn btn--with-item">
+                        <i class="fab fa-google"></i>
+                        Kết nối với Google
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
